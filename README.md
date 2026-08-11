@@ -1,16 +1,78 @@
-# React + Vite
+# FinPilot 💰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FinPilot** is a full-stack personal finance management application built using the MERN stack. It helps users manage their income and expenses, view financial summaries, and get AI-powered insights about their financial activity.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 https://fin-pilot-frontend.vercel.app/
 
-## React Compiler
+## 📌 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+FinPilot is designed to provide users with a simple and interactive platform for managing their personal finances.
 
-## Expanding the ESLint configuration
+Users can:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 Register and log in securely
+- 👤 Manage their profile
+- 💰 Track income
+- 💸 Track expenses
+- 📊 View financial dashboards
+- 🤖 Get AI-powered financial insights
+- 🔎 Search and manage financial records
+- 🛡️ Use role-based access control for protected features
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- Vite
+- JavaScript
+- Tailwind CSS
+- Axios
+- React Router
+- Redux Toolkit
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcrypt
+- REST APIs
+
+### Deployment
+
+- Frontend: Vercel
+- Backend: Render
+- Database: MongoDB Atlas
+
+## 📂 Project Structure
+
+```text
+FinPilot-Frontend/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── hooks/
+│   ├── layouts/
+│   ├── pages/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   │
+│   ├── App.jsx
+│   ├── global.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
