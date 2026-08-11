@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/dashboard";
+const API_URL = "https://finpilot-backend-2vld.onrender.com/api/dashboard";
 
 export async function getDashboardData() {
 
